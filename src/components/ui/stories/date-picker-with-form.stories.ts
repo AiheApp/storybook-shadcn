@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { DatePickerForm } from '../demo/date-picker-with-form'
-import { userEvent, within } from '@storybook/testing-library'
-import { expect } from '@storybook/jest'
+import { userEvent, within } from '@storybook/test'
+import { expect } from '@storybook/test'
 
 const meta = {
     title: 'Shadcn/form',

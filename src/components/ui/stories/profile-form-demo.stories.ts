@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { expect } from '@storybook/jest'
-import { userEvent, within } from '@storybook/testing-library'
+import { expect } from '@storybook/test'
+import { userEvent, within } from '@storybook/test'
 import { ProfileForm } from '../demo/Form-example-demo'
 //meta
 const meta = {

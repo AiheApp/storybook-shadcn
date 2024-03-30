@@ -1,4 +1,4 @@
-import { expect } from '@storybook/jest'
+import { expect } from '@storybook/test'
 import { Meta, StoryObj } from '@storybook/react'
 
 import {
@@ -12,7 +12,7 @@ import {
     AlertDialogTitle,
     AlertDialogTrigger,
 } from '../alert-dialog'
-import { userEvent, within } from '@storybook/testing-library'
+import { userEvent, within } from '@storybook/test'
 
 const meta = {
     title: 'Shadcn/alert',

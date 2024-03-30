@@ -1,13 +1,13 @@
 // import { expect } from '@storybook/jest'
 import { Meta, StoryObj } from '@storybook/react'
-import { userEvent, within } from '@storybook/testing-library'
+import { userEvent, within } from '@storybook/test'
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
 } from '../../ui/accordion'
-import { expect } from '@storybook/jest'
+import { expect } from '@storybook/test'
 
 const meta = {
     title: 'Shadcn/accordion',
